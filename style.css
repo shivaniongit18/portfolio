@@ -1,43 +1,80 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
-    font-family: "Arial, sans-serif" ;
-    font-size: large;
-    padding: 20px;
-    font: 1em sans-serif;
-    background-color: whitesmoke;
-    
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
 header {
+    background-color: #7215dd;
+    color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 40px 0;
 }
 
 header h1 {
     font-size: 36px;
-    margin: 0;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
+
 header h2 {
     font-size: 24px;
-    margin: 0;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
 }
 
 nav a {
     text-decoration: none;
-    color: black;
-    margin-right: 10px;
+    color: white;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 24px;
+    color: #7215dd;
+    margin-top: 20px;
 }
 ul {
-    list-style-type: disc;
+    list-style: none;
     margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+form {
+    margin-top: 20px;
 }
 
 label {
     font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
 }
 
 input[type="text"],
@@ -45,19 +82,22 @@ input[type="email"],
 textarea {
     width: 100%;
     padding: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 5px;
 }
 
-input[type="submit"] 
-{
-    background-color: black;
-    color: white;
+input[type="submit"] {
+    background-color: #7215dd;
+    color: #fff;
     padding: 10px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
-    font-weight: bold;
 }
 
+hr {
+    border: double;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
