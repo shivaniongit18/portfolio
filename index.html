@@ -1,42 +1,62 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>My first HTML Page</title>
-        <style> 
-        body {
-         background-color: lightcoral;
-        }
-        p { border: dotted ;
-        }
-        ol { 
-            background-color: white ;
-        }
-        .highlight {
-        background-color: lightblue;}
+<head>
+    <title>Shivani Shailja's Resume</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 
-        #specialText {
-        color: blueviolet;}
+    
+</head>
+<body>
+    <header>
+        
+        <h1><b>Shivani Shailja</b></h1>
+        <h2>Fresher</h2>
+    <nav>
+        <a href="1800shivani@gmail.com">1800shivani@gmail.com  |</a>
+        <a href="9650860245">9650860245 |</a>
+        <a href="https://github.com/shivaniongit18"> Github  |</a>
+        <a href="https://www.linkedin.com/in/shivani-shailja-556a93227/">Linkedin</a>
+    </nav>
+        <hr>
+    </header>
+    <main>
+    
+    <h3>Career Objective</h3>
+    To grow with the company where I can effectively contribute my software skills as a professional.
 
-        </style>
-    </head>
-    <body>
-        <h2>Welcome to my page </h2>
-       <p> My first HTML page!!</p> 
-       <p>This is a paragraph that will be highlighted.</p>
-    <div class="highlight">This line will be highlighted.</div>
-    <p id="specialText">This is a paragraph with <span id="specialText">special text</span>.</p>
+    <h3>Work Experience</h3>
+    Intern as a data analyst
 
-        <ol>
-            <li> ONE </li>
-            <li>TWO</li>
-            <li>THREE</li>
-            <li>FOUR</li>
-        </ol>
-        <ul>
-            <li>ONE</li>
-            <li>TWO</li>
-            <li>THREE</li> 
-            <li>FOUR</li>           
-        </ul>
-        <a href="https://www.google.com/"> Google </a>
-    </body>
+    <h3>Education</h3>
+    BCA Bachelor of Computer Application, IITM Janakpuri <br>
+    Graduated 2023
+
+    <h3>Skills</h3>
+    <ul>
+        <li>Front-end: HTML, CSS, JavaScript</li>
+        <li>Back-end: SQL</li>
+        <li>Tool: Git</li>
+    </ul>
+
+    <h3>Professional Certificates</h3>
+    <ul>
+        <li>Introduction to Game Design (Online course - California Institute of the Arts)</li>
+        <li>Foundations- Data, Data, Everywhere (Online course - Coursera)</li>
+        <li>Consultant Virtual Experience Program (Accenture)</li>
+    </ul>
+
+    <h3>Contact Me</h3>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    </main>
+</body>
 </html>
